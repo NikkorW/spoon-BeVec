@@ -1,18 +1,16 @@
-# BeVec
+# 🚀 **BeVec: SpoonOS Native Vector Engine**
 
-BeVec is a unified vector database client library that supports Pinecone and Chroma databases. It provides a consistent interface while maintaining compatibility with the original SDKs.
+BeVec is the **native vector retrieval layer of SpoonOS**, designed to bridge AI agents with scalable vector search capabilities. It provides a **unified, modular, and Web3-aware interface** for AI-driven applications to store and retrieve high-dimensional embeddings—powering semantic search, RAG (Retrieval-Augmented Generation), and advanced AI tasks. As well, we will keeping developing our in-house vectorDB, it will name as BeVecXXX in the future.
 
-## Features
+---
 
-- Unified vector operation interface
-- Full compatibility with original SDKs
-- Type safety and comprehensive input validation
-- Simple and intuitive API
-- Support for Pinecone and Chroma databases
-- Comprehensive error handling with custom exceptions
-- Detailed logging and debugging support
-- High test coverage with mock implementations
-- Consistent behavior across different providers
+## ✨ **Key Features**
+
+- **Unified Vector Abstraction**: Supports integration with popular vector databases (e.g., Chroma, Pinecone, Customized vectorDB) via a single API.
+- **SpoonOS-Native**: Designed for seamless interoperability with SpoonOS MCP+, NeoFS, and agentic workflows.
+- **Pluggable Backends**: Easily switch between different vector stores or plug in your own backend.
+- **Optimized for RAG**: Ideal for semantic search, knowledge retrieval, and LLM fine-tuned pipelines.
+- **Secure & Decentralized**: Compatible with SpoonOS privacy modules for secure vector storage.
 
 ## Installation
 
